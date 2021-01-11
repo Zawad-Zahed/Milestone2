@@ -1,0 +1,21 @@
+.first-section {
+  width: 70%;
+  height: 25%;
+  background-color: blueviolet;
+  margin: 10%;
+}
+.players {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 20px;
+}
+.players img {
+  height: 40px;
+  margin-right: 10px;
+}
+.player {
+  display: flex;
+  margin-left: 20px;
+  align-items: center;
+}
